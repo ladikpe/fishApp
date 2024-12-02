@@ -1,5 +1,5 @@
 Pipeline {
-    Agent any
+    Agent: any
 
     Environment{
         Jenkins_server_ip = ""
