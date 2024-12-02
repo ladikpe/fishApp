@@ -1,10 +1,10 @@
-Pipeline {
+pipeline {
     agent any
 
     environment{
         Jenkins_server_ip = ""
     }
-    
+
     stages{
         stage(build){
             steps{
