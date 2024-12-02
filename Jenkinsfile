@@ -1,13 +1,13 @@
 Pipeline {
-    Agent: any
+    agent any
 
-    Environment{
+    environment{
         Jenkins_server_ip = ""
     }
 /*
-    Stages{
-        Stage(build){
-            Steps{
+    stages{
+        stage(build){
+            steps{
                 script {
                    echo "pull web request" 
                    git branch: 'main', url: 'https://github.com/ladikpe/fishApp.git'
@@ -15,6 +15,6 @@ Pipeline {
 
             }
         }
-    } */
+    } /
 
 }
