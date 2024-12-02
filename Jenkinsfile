@@ -4,7 +4,7 @@ Pipeline {
     Environment{
         Jenkins_server_ip = ""
     }
-
+/*
     Stages{
         Stage(build){
             Steps{
@@ -15,6 +15,6 @@ Pipeline {
 
             }
         }
-    }
+    } */
 
 }
